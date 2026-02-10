@@ -87,3 +87,33 @@ COMPENENTS
     padding: 8px;
     color: white;
 }
+
+/*hero*/
+
+.hero{
+    background-image: url(../images/section.hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 135px;
+    padding-bottom: 135px;
+
+}
+
+.hero .wrapper {
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ 
+}
+
+.boite{
+
+ background-color: rgba(0, 0, 0, 50%);
+ border-radius: 10px ;
+ padding:50px 40px ;
+
+ 
+
+ color: white;
+
+}
