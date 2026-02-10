@@ -1,0 +1,89 @@
+/*-------------------------------------------------------------------------------
+GÉNÉRIQUE 
+--------------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+/*-------------------------------------------------------------------------------
+ÉLÉMENTS
+--------------------------------------------------------------------------------*/
+
+body{
+    padding: 0;
+    margin: 0;
+
+    font-family:"Dosis", sans-serif;
+}
+
+
+
+/*-------------------------------------------------------------------------------
+COMPENENTS
+--------------------------------------------------------------------------------*/
+
+/*wrapper*/
+
+.wrapper{
+    max-width:1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+
+.header{
+    background-color: white;
+
+    color: black; 
+
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+.header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:  40px ;
+    
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+
+    
+    list-style: none;
+}
+
+.menu a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color:#0E5EA1;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+}
